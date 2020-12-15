@@ -1585,7 +1585,8 @@ such as <a>publicKeyJwk</a> or <a>publicKeyBase58</a>.
 </p>
 
 <p>
-  A <a>verification method</a> MUST NOT contain multiple verification material properties.
+  A <a>verification method</a> MUST NOT contain multiple verification material properties
+  for the same material.
   For example, expressing key material in a <a>verification method</a> using both
   <code>publicKeyJwk</code> and <code>publicKeyBase58</code> at the same time
   is prohibited.
